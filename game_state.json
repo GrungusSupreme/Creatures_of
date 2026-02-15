@@ -1,0 +1,663 @@
+{
+  "seed": 42,
+  "board_radius": 2,
+  "turn_order": [
+    0,
+    1,
+    2
+  ],
+  "current_turn_index": 1,
+  "turn_number": 1,
+  "turn_phase": "BUILD",
+  "dice_history": [
+    [
+      5,
+      3
+    ]
+  ],
+  "robber_hex_id": 1,
+  "pending_discards": {},
+  "longest_road_lengths": {
+    "0": 2,
+    "1": 1,
+    "2": 1
+  },
+  "longest_road_holder": null,
+  "largest_army_holder": null,
+  "played_knights": {
+    "1": 1
+  },
+  "game_over": false,
+  "winner_player_id": null,
+  "bank_resources": {
+    "Timber": 25,
+    "Stone": 19,
+    "Meat": 20,
+    "Grain": 19,
+    "Iron": 23
+  },
+  "development_deck": [
+    "Victory Point",
+    "Knight",
+    "Knight",
+    "Road Building",
+    "Victory Point",
+    "Knight",
+    "Knight",
+    "Knight",
+    "Victory Point",
+    "Year of Plenty",
+    "Knight",
+    "Victory Point",
+    "Knight",
+    "Victory Point",
+    "Year of Plenty",
+    "Knight",
+    "Knight",
+    "Monopoly",
+    "Knight",
+    "Monopoly",
+    "Knight",
+    "Knight",
+    "Knight",
+    "Knight"
+  ],
+  "dev_card_played_this_turn": true,
+  "new_dev_cards_by_player": {
+    "0": [],
+    "1": [],
+    "2": []
+  },
+  "players": {
+    "0": {
+      "name": "Alice",
+      "resources": {
+        "Grain": 2,
+        "Stone": 1,
+        "Timber": 3,
+        "Meat": 1,
+        "Iron": 0
+      },
+      "development_cards": [
+        "Road Building"
+      ],
+      "victory_points": 3,
+      "settlements": [
+        2
+      ],
+      "cities": [
+        8
+      ],
+      "roads": [
+        1,
+        2,
+        8
+      ]
+    },
+    "1": {
+      "name": "Bob",
+      "resources": {
+        "Grain": 1,
+        "Stone": 3,
+        "Iron": 0,
+        "Timber": 5
+      },
+      "development_cards": [],
+      "victory_points": 2,
+      "settlements": [
+        6,
+        35
+      ],
+      "cities": [],
+      "roads": [
+        10,
+        48
+      ]
+    },
+    "2": {
+      "name": "Cara",
+      "resources": {
+        "Grain": 1
+      },
+      "development_cards": [],
+      "victory_points": 2,
+      "settlements": [
+        0,
+        4
+      ],
+      "cities": [],
+      "roads": [
+        0,
+        3
+      ]
+    }
+  },
+  "board": {
+    "hexes": {
+      "0": {
+        "resource": "Grain",
+        "token": 12
+      },
+      "1": {
+        "resource": "Grain",
+        "token": 5
+      },
+      "2": {
+        "resource": "Stone",
+        "token": 10
+      },
+      "3": {
+        "resource": "Meat",
+        "token": 4
+      },
+      "4": {
+        "resource": "Stone",
+        "token": 6
+      },
+      "5": {
+        "resource": "Iron",
+        "token": 8
+      },
+      "6": {
+        "resource": "Iron",
+        "token": 4
+      },
+      "7": {
+        "resource": "Stone",
+        "token": 2
+      },
+      "8": {
+        "resource": "Grain",
+        "token": 3
+      },
+      "9": {
+        "resource": "Iron",
+        "token": 11
+      },
+      "10": {
+        "resource": "Meat",
+        "token": 5
+      },
+      "11": {
+        "resource": "Timber",
+        "token": 9
+      },
+      "12": {
+        "resource": "Grain",
+        "token": 3
+      },
+      "13": {
+        "resource": "Timber",
+        "token": 11
+      },
+      "14": {
+        "resource": "Wasteland",
+        "token": null
+      },
+      "15": {
+        "resource": "Meat",
+        "token": 6
+      },
+      "16": {
+        "resource": "Meat",
+        "token": 8
+      },
+      "17": {
+        "resource": "Timber",
+        "token": 10
+      },
+      "18": {
+        "resource": "Timber",
+        "token": 9
+      }
+    },
+    "vertices": {
+      "0": {
+        "building_owner": 2,
+        "building_level": 1
+      },
+      "1": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "2": {
+        "building_owner": 0,
+        "building_level": 1
+      },
+      "3": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "4": {
+        "building_owner": 2,
+        "building_level": 1
+      },
+      "5": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "6": {
+        "building_owner": 1,
+        "building_level": 1
+      },
+      "7": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "8": {
+        "building_owner": 0,
+        "building_level": 2
+      },
+      "9": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "10": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "11": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "12": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "13": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "14": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "15": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "16": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "17": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "18": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "19": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "20": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "21": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "22": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "23": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "24": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "25": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "26": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "27": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "28": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "29": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "30": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "31": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "32": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "33": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "34": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "35": {
+        "building_owner": 1,
+        "building_level": 1
+      },
+      "36": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "37": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "38": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "39": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "40": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "41": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "42": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "43": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "44": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "45": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "46": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "47": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "48": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "49": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "50": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "51": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "52": {
+        "building_owner": null,
+        "building_level": 0
+      },
+      "53": {
+        "building_owner": null,
+        "building_level": 0
+      }
+    },
+    "edges": {
+      "0": {
+        "road_owner": 2
+      },
+      "1": {
+        "road_owner": 0
+      },
+      "2": {
+        "road_owner": 0
+      },
+      "3": {
+        "road_owner": 2
+      },
+      "4": {
+        "road_owner": null
+      },
+      "5": {
+        "road_owner": null
+      },
+      "6": {
+        "road_owner": null
+      },
+      "7": {
+        "road_owner": null
+      },
+      "8": {
+        "road_owner": 0
+      },
+      "9": {
+        "road_owner": null
+      },
+      "10": {
+        "road_owner": 1
+      },
+      "11": {
+        "road_owner": null
+      },
+      "12": {
+        "road_owner": null
+      },
+      "13": {
+        "road_owner": null
+      },
+      "14": {
+        "road_owner": null
+      },
+      "15": {
+        "road_owner": null
+      },
+      "16": {
+        "road_owner": null
+      },
+      "17": {
+        "road_owner": null
+      },
+      "18": {
+        "road_owner": null
+      },
+      "19": {
+        "road_owner": null
+      },
+      "20": {
+        "road_owner": null
+      },
+      "21": {
+        "road_owner": null
+      },
+      "22": {
+        "road_owner": null
+      },
+      "23": {
+        "road_owner": null
+      },
+      "24": {
+        "road_owner": null
+      },
+      "25": {
+        "road_owner": null
+      },
+      "26": {
+        "road_owner": null
+      },
+      "27": {
+        "road_owner": null
+      },
+      "28": {
+        "road_owner": null
+      },
+      "29": {
+        "road_owner": null
+      },
+      "30": {
+        "road_owner": null
+      },
+      "31": {
+        "road_owner": null
+      },
+      "32": {
+        "road_owner": null
+      },
+      "33": {
+        "road_owner": null
+      },
+      "34": {
+        "road_owner": null
+      },
+      "35": {
+        "road_owner": null
+      },
+      "36": {
+        "road_owner": null
+      },
+      "37": {
+        "road_owner": null
+      },
+      "38": {
+        "road_owner": null
+      },
+      "39": {
+        "road_owner": null
+      },
+      "40": {
+        "road_owner": null
+      },
+      "41": {
+        "road_owner": null
+      },
+      "42": {
+        "road_owner": null
+      },
+      "43": {
+        "road_owner": null
+      },
+      "44": {
+        "road_owner": null
+      },
+      "45": {
+        "road_owner": null
+      },
+      "46": {
+        "road_owner": null
+      },
+      "47": {
+        "road_owner": null
+      },
+      "48": {
+        "road_owner": 1
+      },
+      "49": {
+        "road_owner": null
+      },
+      "50": {
+        "road_owner": null
+      },
+      "51": {
+        "road_owner": null
+      },
+      "52": {
+        "road_owner": null
+      },
+      "53": {
+        "road_owner": null
+      },
+      "54": {
+        "road_owner": null
+      },
+      "55": {
+        "road_owner": null
+      },
+      "56": {
+        "road_owner": null
+      },
+      "57": {
+        "road_owner": null
+      },
+      "58": {
+        "road_owner": null
+      },
+      "59": {
+        "road_owner": null
+      },
+      "60": {
+        "road_owner": null
+      },
+      "61": {
+        "road_owner": null
+      },
+      "62": {
+        "road_owner": null
+      },
+      "63": {
+        "road_owner": null
+      },
+      "64": {
+        "road_owner": null
+      },
+      "65": {
+        "road_owner": null
+      },
+      "66": {
+        "road_owner": null
+      },
+      "67": {
+        "road_owner": null
+      },
+      "68": {
+        "road_owner": null
+      },
+      "69": {
+        "road_owner": null
+      },
+      "70": {
+        "road_owner": null
+      },
+      "71": {
+        "road_owner": null
+      }
+    },
+    "ports": [
+      {
+        "edge_id": 2,
+        "rate": 2,
+        "resource": "Timber"
+      },
+      {
+        "edge_id": 45,
+        "rate": 3,
+        "resource": null
+      }
+    ]
+  }
+}
