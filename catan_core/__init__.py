@@ -3,6 +3,7 @@ from .bot import GreedyBot
 from .enums import DevelopmentCardType, ResourceType
 from .game import Game
 from .player import Player
+from .render_pygame import run_playable_gui
 from .setup import (
     grant_starting_resources_for_second_settlement,
     initial_placement_order,
@@ -27,4 +28,5 @@ __all__ = [
     "setup_initial_placements",
     "simulate_turns",
     "run_bot_game",
+    "run_playable_gui",
 ]

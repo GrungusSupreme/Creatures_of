@@ -18,6 +18,18 @@ A modular Python core inspired by Settlers of Catan, including:
 C:/Users/cella/Games/Creatures_of_Catan/.venv/Scripts/python.exe play_cli.py
 ```
 
+## Run the Game (GUI)
+
+Install pygame if needed:
+```powershell
+C:/Users/cella/Games/Creatures_of_Catan/.venv/Scripts/python.exe -m pip install pygame-ce
+```
+
+Launch GUI:
+```powershell
+C:/Users/cella/Games/Creatures_of_Catan/.venv/Scripts/python.exe play_gui.py
+```
+
 ## Create Desktop Shortcut (Windows)
 Run this once:
 ```powershell
@@ -45,7 +57,7 @@ git push -u origin main
 
 ## Optional pygame board viewer
 `catan_core/render_pygame.py` contains a lightweight renderer.
-Install pygame first if you want to use it:
+Install pygame-ce first if you want to use it:
 ```powershell
-C:/Users/cella/Games/Creatures_of_Catan/.venv/Scripts/python.exe -m pip install pygame
+C:/Users/cella/Games/Creatures_of_Catan/.venv/Scripts/python.exe -m pip install pygame-ce
 ```

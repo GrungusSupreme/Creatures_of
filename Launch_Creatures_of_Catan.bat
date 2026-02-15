@@ -10,7 +10,7 @@ if not exist "%PYTHON_EXE%" (
   exit /b 1
 )
 
-"%PYTHON_EXE%" "%~dp0play_cli.py"
+"%PYTHON_EXE%" "%~dp0play_gui.py"
 set "EXIT_CODE=%ERRORLEVEL%"
 
 if not "%EXIT_CODE%"=="0" (
